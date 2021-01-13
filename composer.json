@@ -1,0 +1,14 @@
+{
+    "name": "administrator/page-speed-crawler",
+    "autoload": {
+        "psr-4": {
+            "PageSpeedCrawler\\": "src/"
+        },
+        "files": [
+        ]
+    },
+    "require": {
+        "symfony/http-client": "^5.2",
+        "paquettg/php-html-parser": "^3.1"
+    }
+}
